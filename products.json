@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "High Heels",
+    "price": 220,
+    "image": "images/product20.jpg",
+    "discount": 10,
+    "category": "Weman",
+    "description": "Elevate your style with our elegant high heels.",
+    "sizes": ["36", "37", "38", "39", "40"]
+  },
+  {
+    "id": 2,
+    "name": "Classic",
+    "price": 160,
+    "image": "images/product12.jpg",
+    "discount": 15,
+    "category": "Men",
+    "description": "Timeless classics for every formal occasion.",
+    "sizes": ["40", "41", "42", "43","44","45" ]
+  },    
+  {
+    "id": 3,
+    "name": "Loafer",
+    "price": 180,
+    "image": "images/product33.jpg",
+    "discount": 5,
+    "category": "Weman",
+    "description": "Crafted with premium materials for durability.",
+    "sizes": ["36", "37", "38", "39", "40"]
+  },    
+  {
+    "id": 4,
+    "name": "Kids Sneakers",
+    "price": 120,
+    "image": "images/product43.jpg",
+    "discount": 10,
+    "category": "Kids",
+    "description": "Bright designs kids will love to wear.",
+    "sizes": ["31", "32", "33", "34", "35"]
+  }
+]

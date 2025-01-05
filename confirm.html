@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">WalkWell</a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart (0)</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <!-- Confirmation Section -->
+  <section class="confirmation b-g">
+    <div class="container b-g">
+      <h2>Order Confirmation</h2>
+      <p>Thank you for your purchase! Here are your order details:</p>
+      
+      <!-- Dynamic Order Summary -->
+      <div id="order-details" class="order-summary">
+        <!-- Dynamic content will be added here -->
+      </div>   
+      
+      <a href="index.html" class="btn confirm-btn">Back to Home</a>    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <div class="copy">
+        <p class="copy-p">&copy; 2024 Mehdi KH. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

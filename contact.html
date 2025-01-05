@@ -1,0 +1,80 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  </head>
+<body>
+<!-- Navbar -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">WalkWell</a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart (0)</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+  <section class="contact-section b-g">
+    <div class="container">
+      <div class="content-wrapper">
+        <!-- Contact Form -->
+        <form class="contact-form" action="#" method="POST">
+            <h2 class="form-title">Send Us a Message</h2>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-contact">Send Message</button>
+        </form>
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>We’d love to hear from you. Feel free to get in touch via any of the methods below!</p>
+          <ul>
+            <li><strong>Email:</strong> support@ecommerce.com</li>
+            <li><strong>Phone:</strong> +123 456 7890</li>
+            <li><strong>Address:</strong> 123 E-Commerce Street, Business City</li>
+          </ul>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Footer -->
+ <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <div class="copy">
+        <p class="copy-p">&copy; 2024 Mehdi KH. All rights reserved.</p>
+      </div>
+    </div>
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

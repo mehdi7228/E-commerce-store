@@ -1,0 +1,372 @@
+  [
+    {
+      "id": 1,
+      "name": "High Heels",
+      "price": 220,
+      "image": "images/product20.jpg",
+      "discount": 10,
+      "category": "Weman",
+      "description": "Elevate your style with our elegant high heels.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },
+    {
+      "id": 2,
+      "name": "Classic",
+      "price": 160,
+      "image": "images/product12.jpg",
+      "discount": 15,
+      "category": "Men",
+      "description": "Timeless classics for every formal occasion.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },    
+    {
+      "id": 3,
+      "name": "Loafer",
+      "price": 180,
+      "image": "images/product33.jpg",
+      "discount": 5,
+      "category": "Weman",
+      "description": "Crafted with premium materials for durability.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 4,
+      "name": "Kids Sneakers",
+      "price": 120,
+      "image": "images/product43.jpg",
+      "discount": 10,
+      "category": "Kids",
+      "description": "Crafted with premium materials for durability.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },    
+    {
+      "id": 5,
+      "name": "High Heels",
+      "price": 360,
+      "image": "images/product24.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Perfect for weddings, parties, or a night out.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 6,
+      "name": "Sneakers",
+      "price": 180,
+      "image": "images/product16.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Stylish sneakers for active lifestyles.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },    
+    {
+      "id": 7,
+      "name": "Loafer",
+      "price": 220,
+      "image": "images/product32.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Comfortable and stylish for everyday use.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },
+    {
+      "id": 8,
+      "name": "Classic",
+      "price": 120,
+      "image": "images/product4.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Perfect for suits or semi-formal outfits.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 9,
+      "name": "Kids Boots",
+      "price": 320,
+      "image": "images/product42.jpg",
+      "discount": 10,
+      "category": "Kids",
+      "description": "Keep your kids warm and stylish in boots.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },
+    {
+      "id": 10,
+      "name": "Classic",
+      "price": 420,
+      "image": "images/product11.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Made with premium leather for durability.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 11,
+      "name": "Loafer",
+      "price": 200,
+      "image": "images/product31.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Perfect for office or weekend outings.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },
+    {
+      "id": 12,
+      "name": "Sneakers",
+      "price": 220,
+      "image": "images/product1.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Durable soles for maximum support.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 13,
+      "name": "Classic",
+      "price": 380,
+      "image": "images/product3.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Perfect for suits or semi-formal outfits.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 14,
+      "name": "Classic",
+      "price": 420,
+      "image": "images/product6.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Elevate your elegance with our classic designs.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 15,
+      "name": "Loafer",
+      "price": 200,
+      "image": "images/product18.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Made with premium leather for durability.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },    
+    {
+      "id": 16,
+      "name": "Kids Sneakers",
+      "price": 300,
+      "image": "images/product40.jpg",
+      "discount": 0,
+      "category": "Kids",
+      "description": "Durable and made for endless fun.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },    
+    {
+      "id": 17,
+      "name": "Kids Vans",
+      "price": 100,
+      "image": "images/product36.jpg",
+      "discount": 0,
+      "category": "Kids",
+      "description": "Comfortable and lightweight running shoes for everyday wear.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },    
+    {
+      "id": 18,
+      "name": "Kids Sneakers",
+      "price": 420,
+      "image": "images/product35.jpg",
+      "discount": 0,
+      "category": "Kids",
+      "description": "Lightweight sneakers for playful kids.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },    
+    {
+      "id": 19,
+      "name": "Kids Sneakers",
+      "price": 400,
+      "image": "images/product34.jpg",
+      "discount": 0,
+      "category": "Kids",
+      "description": "Easy to slip on and off for convenience.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },    
+    {
+      "id": 20,
+      "name": "High Heels",
+      "price": 390,
+      "image": "images/product26.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Step confidently with our timeless designs.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 21,
+      "name": "High Heels",
+      "price": 270,
+      "image": "images/product25.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Perfect for weddings, parties, or a night out.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 22,
+      "name": "High Heels",
+      "price": 310,
+      "image": "images/product23.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Crafted for comfort and sophistication.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 23,
+      "name": "High Heels",
+      "price": 315,
+      "image": "images/product21.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Elevate your style with our elegant high heels.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 24,
+      "name": "High Heels",
+      "price": 260,
+      "image": "images/product22.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Durable and designed for all-day wear.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 25,
+      "name": "Classic",
+      "price": 375,
+      "image": "images/product27.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Timeless classics for every formal occasion.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 26,
+      "name": "Classic",
+      "price": 375,
+      "image": "images/product28.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "A blend of fashion and functionality.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },    
+    {
+      "id": 27,
+      "name": "Loafer",
+      "price": 160,
+      "image": "images/product30.jpg",
+      "discount": 0,
+      "category": "Weman",
+      "description": "Perfect for office or weekend outings.",
+      "sizes": ["36", "37", "38", "39", "40"]
+    },
+    {
+      "id": 28,
+      "name": "Classic",
+      "price": 365,
+      "image": "images/product5.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Timeless classics for every formal occasion.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 29,
+      "name": "Classic",
+      "price": 190,
+      "image": "images/product6.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Elevate your elegance with our classic designs.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 30,
+      "name": "College",
+      "price": 160,
+      "image": "images/product13.jpg",
+      "discount": 15,
+      "category": "Men",
+      "description": "Comfortable and stylish for everyday use.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 31,
+      "name": "Loafer",
+      "price": 150,
+      "image": "images/product10.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Slip-on design for effortless wear.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 32,
+      "name": "Classic",
+      "price": 350,
+      "image": "images/product15.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Comfortable and refined for long hours.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 33,
+      "name": "Sneakers",
+      "price": 255,
+      "image": "images/product19.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Breathable design for all-day comfort.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },
+    {
+      "id": 34,
+      "name": "Sneakers",
+      "price": 190,
+      "image": "images/product17.jpg",
+      "discount": 0,
+      "category": "Men",
+      "description": "Trendy and versatile for any wardrobe.",
+      "sizes": ["40", "41", "42", "43","44","45" ]
+    },    
+    {
+      "id": 35,
+      "name": "Kids Sneakers",
+      "price": 430,
+      "image": "images/product37.jpg",
+      "discount": 0,
+      "category": "Kids",
+      "description": "Perfect for school or outdoor adventures.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },    
+    {
+      "id": 36,
+      "name": "Kids Sneakers",
+      "price": 410,
+      "image": "images/product38.jpg",
+      "discount": 0,
+      "category": "Kids",
+      "description": "Bright designs kids will love to wear.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    },    
+    {
+      "id": 37,
+      "name": "Kids Sneakers",
+      "price": 200,
+      "image": "images/product41.jpg",
+      "discount": 0,
+      "category": "Kids",
+      "description": "Lightweight sneakers for playful kids.",
+      "sizes": ["31", "32", "33", "34", "35"]
+    }   
+  ]

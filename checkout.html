@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Mini E-commerce Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Navbar -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">WalkWell</a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart (0)</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+  <!-- Checkout Section -->
+  <section class="checkout">
+    <div class="container b-g">
+      <h2>Checkout</h2>
+      
+      <!-- Checkout Form -->
+      <form class="checkout-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="address">Shipping Address</label>
+        <textarea id="address" name="address" placeholder="Enter your shipping address" required></textarea>
+
+        <input type="hidden" id="subtotal" name="subtotal" value="199.99">
+        <input type="hidden" id="shipping" name="shipping" value="10.00">
+        <input type="hidden" id="total" name="total" value="209.99">
+
+        <button type="submit" class="checkout-btn">Proceed to Payment</button>
+      </form>
+    </div>
+  </section>
+
+   <!-- Footer -->
+   <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <div class="copy">
+        <p class="copy-p">&copy; 2024 Mehdi KH. All rights reserved.</p>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
