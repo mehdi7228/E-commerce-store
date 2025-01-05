@@ -86,8 +86,8 @@ document.addEventListener("click", (event) => {
     const product = {
       id: productCard.getAttribute("data-id"),
       name: productCard.getAttribute("data-name"),
-      price: parseFloat(finalPrice), // ذخیره قیمت تخفیف‌خورده
-      originalPrice: originalPrice, // ذخیره قیمت اصلی (اختیاری)
+      price: parseFloat(finalPrice),
+      originalPrice: originalPrice, 
       image: productCard.getAttribute("data-image"),
       quantity: 1,
     };
@@ -118,10 +118,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Load and render products from JSON
+// در بخش بارگذاری محصولات (loadProducts) کد مربوط به دکمه View More را اصلاح کنید
 const loadProducts = (url, container, cardClass, options = {}) => {
   const { applyDiscount = false } = options;
 
-  // تشخیص صفحه جاری
   const isIndexPage = window.location.pathname.includes("index.html");
   const isProductsPage = window.location.pathname.includes("products.html");
 
@@ -131,12 +131,12 @@ const loadProducts = (url, container, cardClass, options = {}) => {
       container.innerHTML = products
         .map((product) => {
           const originalPrice = product.price;
-          const discount = product.discount || 0; // درصد تخفیف از فایل JSON
+          const discount = product.discount || 0;
           const discountPrice = applyDiscount && discount > 0
             ? (originalPrice - (originalPrice * discount) / 100).toFixed(2)
             : null;
 
-          // انتخاب سایز (اگر محصول سایز داشته باشد)
+          // choose size
           const sizeOptions = product.sizes
             ? product.sizes
                 .map((size) => `<option value="${size}">${size}</option>`)
@@ -153,14 +153,14 @@ const loadProducts = (url, container, cardClass, options = {}) => {
             <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             
-            <!-- توضیحات محصول -->
+            <!-- Product description-->
             ${
               product.description
                 ? `<p class="product-description">${product.description}</p>`
                 : ""
             }
 
-            <!-- انتخاب سایز -->
+            <!-- size -->
             ${
               sizeOptions && isProductsPage
                 ? `
@@ -172,7 +172,7 @@ const loadProducts = (url, container, cardClass, options = {}) => {
                 : ""
             }
 
-            <!-- قیمت محصول -->
+            <!-- product price -->
             <div class="price">
               <p class="original-price">
                 Price: <span>$${originalPrice}</span>
@@ -191,7 +191,7 @@ const loadProducts = (url, container, cardClass, options = {}) => {
               }
             </div>
 
-            <!-- دکمه مناسب بر اساس صفحه -->
+            <!-- button -->
             
             ${
               isIndexPage
@@ -210,6 +210,11 @@ const loadProducts = (url, container, cardClass, options = {}) => {
     .catch((error) => console.error("Error loading products:", error));
 };
 
+
+
+
+
+
 // Load featured products on index.html with discount
 if (productContainer) {
   loadProducts("products.json", productContainer, "featured-card", {
@@ -224,6 +229,14 @@ if (dynamicProductsContainer) {
     applyDiscount: true,
   });
 }
+
+
+
+
+
+
+
+
 
 // Category filtering
 if (categoryFilter) {
@@ -240,6 +253,15 @@ if (categoryFilter) {
     });
   });
 }
+
+
+
+
+
+
+
+
+
 
 
 // Render cart if on cart page
@@ -266,6 +288,15 @@ if (document.querySelector(".cart-items")) {
   });
 }
 
+
+
+
+
+
+
+
+
+
 // Checkout form submission
 const checkoutForm = document.querySelector(".checkout-form");
 if (checkoutForm) {
@@ -281,6 +312,13 @@ if (checkoutForm) {
     window.location.href = "confirm.html";
   });
 }
+
+
+
+
+
+
+
 
 // Confirmation page logic
 document.addEventListener("DOMContentLoaded", () => {
